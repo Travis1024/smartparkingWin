@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.graduation.server.mapper.OrderlistMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.graduation.server.pojo.Orderlist">
+        <id column="order_id" property="orderId" />
+        <result column="order_carnumber" property="orderCarnumber" />
+        <result column="order_carnumbercolor" property="orderCarnumbercolor" />
+        <result column="order_cartype" property="orderCartype" />
+        <result column="order_judgecuser" property="orderJudgecuser" />
+        <result column="order_orgid" property="orderOrgid" />
+        <result column="order_entrytime" property="orderEntrytime" />
+        <result column="order_lefttime" property="orderLefttime" />
+        <result column="order_cost" property="orderCost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        order_id, order_carnumber, order_carnumbercolor, order_cartype, order_judgecuser, order_orgid, order_entrytime, order_lefttime, order_cost
+    </sql>
+
+</mapper>

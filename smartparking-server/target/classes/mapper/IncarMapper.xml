@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.graduation.server.mapper.IncarMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.graduation.server.pojo.Incar">
+        <id column="car_number" property="carNumber" />
+        <result column="car_numbercolor" property="carNumbercolor" />
+        <result column="car_type" property="carType" />
+        <result column="car_judgecuser" property="carJudgecuser" />
+        <result column="car_orgid" property="carOrgid" />
+        <result column="car_entertime" property="carEntertime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        car_number, car_numbercolor, car_type, car_judgecuser, car_orgid, car_entertime
+    </sql>
+
+</mapper>
