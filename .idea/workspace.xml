@@ -50,10 +50,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/smartparking-server/src/main/java/com/graduation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -143,6 +144,10 @@
       <workItem from="1643338477324" duration="8069000" />
       <workItem from="1644456854158" duration="1314000" />
       <workItem from="1644460294374" duration="3794000" />
+      <workItem from="1646392669863" duration="82000" />
+      <workItem from="1646462117635" duration="319000" />
+      <workItem from="1646465513230" duration="2206000" />
+      <workItem from="1646791490846" duration="2555000" />
     </task>
     <servers />
   </component>
